@@ -1,0 +1,26 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "solidityMeadow",
+            "request": "launch",
+            "name": "Debug Solidity (via unit test run)"
+        },
+        {
+            "type": "solidity",
+            "request": "launch",
+            "name": "Debug Solidity (via contract entry point)"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+
+    ]
+}
